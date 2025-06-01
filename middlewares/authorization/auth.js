@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const User = require("../../models/user");
-const CustomError = require("../errors/customErrorHandler");
+const CustomError = require("../../helpers/error/customError");
 const asyncErrorWrapper = require("express-async-handler");
 const BlacklistToken = require("../../models/blackListModel"); // Import blacklist model
 const { isTokenIncluded, getAccessTokenFromHeader } = require("../../helpers/auth/tokenHelpers");
