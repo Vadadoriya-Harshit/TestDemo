@@ -1,5 +1,5 @@
 const asyncErrorWrapper = require("express-async-handler")
-const CustomError = require("../../helpers/error/customError");
+const CustomError = require("../errors/customErrorHandler");
 const Story = require("../../models/story")
 
 
