@@ -4,7 +4,7 @@ const cors = require("cors")
 const path = require("path")
 const cookieParser = require("cookie-parser");
 
-// const IndexRoute = require("./routers/index");
+const IndexRoute = require("./routers/index");
 const connectDatabase = require("./helpers/database/connectDatabase")
 const customErrorHandler = require("./middlewares/errors/customErrorHandler")
 
