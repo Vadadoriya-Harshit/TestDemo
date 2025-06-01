@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 app.use(customErrorHandler)
 
-const PORT =  9000; 
+const PORT = process.env.PORT || 9000;
 
 
 app.use(express.static(path.join(__dirname , "public") ))
