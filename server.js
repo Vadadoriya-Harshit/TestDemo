@@ -19,7 +19,7 @@ const app = express() ;
 app.use(express.json());
 app.use(cors())
 app.use(cookieParser());
-// app.use("/",IndexRoute);
+app.use("/",IndexRoute);
 
 app.use(customErrorHandler)
 
